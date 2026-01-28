@@ -6,7 +6,6 @@
 .item-img {
   width: 400px;
   height: 400px;
-
 }
 
 .main {
@@ -30,5 +29,7 @@
 }
 
 .align {
+  display: flex;
   justify-content: center;
+  margin-top: 20px;
 }

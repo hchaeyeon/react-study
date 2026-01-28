@@ -90,7 +90,7 @@ function App() {
         <Box title="You" item={userSelect} result={result} />
         <Box title="Computer" item={computerSelect} result={computerResult} />
       </div>
-      <div>
+      <div className='align'>
         <button onClick={() => play("scissors")}>가위</button>
         <button onClick={() => play("rock")}>바위</button>
         <button onClick={() => play("paper")}>보</button>
